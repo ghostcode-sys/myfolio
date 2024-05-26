@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    background-image: radial-gradient(circle at center, #082c41d8, black);
+}
+
+.imageLoader{
+    display: none;
+}
+
+.container{
+    display: inline-block;
+    width: 98%;
+    height: 98%;
+    min-width: 1150px;
+    min-height: 550px;
+    margin: auto;
+    background-image: radial-gradient(circle at center, #082c41d8, black);
+    position: relative;
+}
+
+
+.image_container{
+    display: none;
+}
